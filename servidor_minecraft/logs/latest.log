@@ -1,0 +1,368 @@
+[15:51:03] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.2
+[15:51:04] [main/INFO]: Loading 123 mods:
+	- c2me 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-base 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-client-uncapvd 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-fixes-general-threading-issues 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-notickvd 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-allocs 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-chunkio 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-dfc 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-math 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-scheduling 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-worldgen-general 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-opts-worldgen-vanilla 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-rewrites-chunk-serializer 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-rewrites-chunk-system 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-rewrites-chunkio 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-server-utils 0.3.5.1+rc.1.0+1.21.10
+	   |-- c2me-threading-lighting 0.3.5.1+rc.1.0+1.21.10
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cardboard 15
+	   |-- fabric-permissions-api-v0 0.5.0
+	   |-- io_leangen_geantyref_geantyref 1.3.16
+	   |-- io_papermc_reflection-rewriter 0.0.3
+	   |-- io_papermc_reflection-rewriter-proxy-generator 0.0.3
+	   |-- io_papermc_reflection-rewriter-runtime 0.0.3
+	   |-- net_fabricmc_mapping-io 0.8.0
+	   |-- net_md-5_specialsource 1.11.2
+	   |-- net_neoforged_autorenamingtool 2.0.3
+	   |-- net_neoforged_installertools_cli-utils 2.1.4
+	   |-- net_neoforged_srgutils 1.0.9
+	   |-- org_spongepowered_configurate-core 4.2.0
+	   \-- org_spongepowered_configurate-hocon 4.2.0
+	- cloth-config 20.0.149
+	   \-- cloth-basic-math 0.6.1
+	- e4mc_minecraft 5.5.4
+	   \-- folk_sisby_kaleido-config 0.3.3+1.3.2
+	- fabric-api 0.137.0+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.4+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.49+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.17.0+ff7bc77d6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.31+cd3b9e596f
+	   |-- fabric-data-generation-api-v1 23.2.25+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.9+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.25+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.65+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.12+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.3+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.26+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.2.0+39709ef06f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.1+3706cdf36f
+	   |-- fabric-renderer-indigo 4.1.2+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.1.0+676d05ab6f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.2.3+3388a3b26f
+	   |-- fabric-resource-loader-v1 1.0.3+8cc86c156f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.11+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.2
+	- icommon-bundle 106
+	   \-- icommon 106+1.21.9
+	        \-- icommon-api-configuration 1.0
+	- java 21
+	- lithium 0.20.0+mc1.21.10
+	- minecraft 1.21.10
+	- simpleupdatechecker 1.3.0+1.21.9-rc1
+	   \-- server_translations_api 2.5.2+1.21.9-pre3
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- voicechat 1.21.10-2.6.6
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c4868
+	   |-- fabric-rendering-v1 16.0.1+328a75ba68
+	   \-- voicechat_api 2.6.0
+	- yet-another-minecraft-bingo 2.9.2+mc1.21.9
+	   |-- com_zaxxer_hikaricp 7.0.2
+	   |-- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	   |-- org_xerial_sqlite-jdbc 3.50.3.0
+	   \-- yet-another-minecraft-bingo-api 2.9.2
+	- yet_another_config_lib_v3 3.8.0+1.21.9-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+[15:51:04] [main/INFO]: Applying default options... (YOSBR)
+[15:51:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:51:04] [main/INFO]: Compatibility level set to JAVA_16
+[15:51:04] [main/INFO]: Compatibility level set to JAVA_21
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:51:04] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:51:04] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:51:04] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:51:05] [main/INFO]: Loading Libraries...
+[15:51:06] [main/INFO]: Loaded 16 libraries. Paper-API: 1.21.10-22; Adventure: 4.25.0 (8); BungeeChat: 1.21-R0.2
+[15:51:06] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[15:51:06] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:51:06] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:51:06] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[15:51:06] [main/INFO]: Index 1 out of bounds for length 1
+[15:51:06] [main/INFO]: Index 1 out of bounds for length 1
+[15:51:06] [main/INFO]:  iCommonLib (for 1.21.10) - Common Code for mods. Copyright (c) 2018-2025 Isaiah.
+[15:51:06] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[15:51:07] [main/INFO]: Applying mixin: MixinMinecraftServer...
+[15:51:07] [main/INFO]: Applying mixin: MixinBlockState...
+[15:51:07] [main/INFO]: Applying mixin: MixinBlockItem...
+[15:51:07] [main/INFO]: Applied 22 mixins.
+[15:51:07] [main/INFO]: Applying Mixin: R1_21.MixinNetherPortalBlock_10...
+[15:51:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:51:15] [main/INFO]: Cardboard - Minecraft 1.21.10 - Paper-API 1.21.10-22. Registered '8' iCommon events.
+[15:51:16] [main/INFO]: iCommon Mod initialized.
+[15:51:16] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to read Modrinth version list! Got status code 404 with body ''
+[15:51:16] [main/INFO]: [voicechat] Compatibility version 20
+[15:51:16] [main/INFO]: [voicechat] Loading plugins
+[15:51:17] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[15:51:17] [main/INFO]: [voicechat] Initializing plugins
+[15:51:17] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[15:51:17] [main/INFO]: [voicechat] Registering events for 'yet-another-minecraft-bingo'
+[15:51:17] [main/INFO]: Starting Bingo migration runner...
+[15:51:17] [main/INFO]: Started 10 definitions in 4.147 ms
+[15:51:17] [main/INFO]: Starting Bingo Server application...
+[15:51:17] [main/INFO]: Started 221 definitions in 1.411 ms
+[15:51:17] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in /workspaces/server1/servidor_minecraft/world/datapacks/bingo.zip
+[15:51:17] [main/INFO]: Running database migrations...
+[15:51:17] [main/INFO]: HikariPool-1 - Starting...
+[15:51:17] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@3ceba23a
+[15:51:17] [main/INFO]: HikariPool-1 - Start completed.
+[15:51:18] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[15:51:18] [main/INFO]: Running database migrations... - done in 148.973582ms!
+[15:51:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:51:19] [Worker-Main-3/INFO]: [DataLoader] Reloading bingo data...
+[15:51:19] [Worker-Main-1/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[15:51:20] [Worker-Main-1/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[15:51:20] [Worker-Main-1/INFO]: [TagLoader] Reloading BINGO objective tags...
+[15:51:20] [Worker-Main-2/INFO]: [TeamPresetLoader] Reloading BINGO team presets...
+[15:51:20] [Worker-Main-2/INFO]: [SpawnKitLoader] Reloading BINGO spawn kits...
+[15:51:20] [Worker-Main-1/INFO]: [ObtainableItemsLoader] Found 2859 items referenced in resource files
+[15:51:20] [Worker-Main-1/INFO]: [DataLoader] Prepared in 691.936337ms!
+[15:51:20] [main/INFO]: Loaded 1461 recipes
+[15:51:20] [main/INFO]: Loaded 1574 advancements
+[15:51:20] [main/INFO]: [DataLoader] Completed in 713.765512ms!
+[15:51:20] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 528 translation keys
+[15:51:20] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.452 ms
+[15:51:20] [Server thread/INFO]: Setting IServer instance..
+[15:51:20] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[15:51:20] [Server thread/INFO]: Loading properties
+[15:51:20] [Server thread/INFO]: Default game type: SURVIVAL
+[15:51:21] [Server thread/INFO]: DEB: 2104
+[15:51:21] [Server thread/INFO]: This server is running Cardboard version 15 (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[15:51:21] [Server thread/INFO]: Loading Bukkit plugins...
+[15:51:21] [Server thread/INFO]: RemapUtils Exporting Mojang Mappings...
+[15:51:21] [Server thread/INFO]: RemapUtils RemapUtils: MyMappingResolver Namespace: intermediary
+[15:51:21] [Server thread/INFO]: RemapUtils Read 4325 classes from bukkit-1.21.10-cl.csrg
+[15:51:21] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.9.3
+[15:51:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
+[15:51:22] [Server thread/INFO]: [STDOUT]: Setting Registry..
+[15:51:22] [Server thread/INFO]: [STDOUT]: FINDING MATCH FOR: ada.c
+[15:51:24] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:24] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:25] [Server thread/INFO]: [STDOUT]: net.minecraft.network.protocol.game.PacketPlayOutPlayerInfo$EnumPlayerInfoAction
+[15:51:26] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.10[32;1m.[0;39m
+[15:51:26] [Server thread/ERROR]: An unexpected error occurred while starting the plugin. Please check the console for more details.
+[15:51:26] [Server thread/WARN]: Updater was not initialized, a error occurred while starting the plugin. Forcing updater to initialize.
+[15:51:26] [Server thread/ERROR]: An unexpected error occurred while initializing the updater. Please check the console for more details.
+[15:51:26] [Server thread/INFO]: 
+[15:51:26] [Server thread/INFO]: Generating keypair
+[15:51:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:51:26] [Server thread/INFO]: Using epoll channel type
+[15:51:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:51:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:51:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:51:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:51:26] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[15:51:26] [Server thread/INFO]: Preparing level "world"
+[15:51:26] [Server thread/INFO]: Enforcing safe world random access
+[15:51:26] [Server thread/INFO]: Setting IWorld for world "world"
+[15:51:27] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[15:51:27] [e4mc_minecraft-init/INFO]: using relay na
+[15:51:27] [Netty Epoll Server IO #1/INFO]: control channel open: [id: 0x54afa4db, QuicStreamAddress{streamId=0}]
+[15:51:27] [Netty Epoll Server IO #1/INFO]: control channel write complete
+[15:51:27] [Netty Epoll Server IO #1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[15:51:27] [Netty Epoll Server IO #1/INFO]: Domain assigned: suffering-brewing.na.e4mc.link
+[15:51:27] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 427.0 ms
+[15:51:27] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[15:51:27] [Server thread/INFO]: Setting IWorld for world "world_the_end"
+[15:51:27] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.848 ms
+[15:51:27] [Server thread/INFO]: Setting IWorld for world "world_nether"
+[15:51:27] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 13.19 ms
+[15:51:27] [Server thread/INFO]: Setting IWorld for world "bingo_lobby"
+[15:51:27] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 33.55 μs
+[15:51:27] [Server thread/INFO]: Selecting global world spawn...
+[15:51:30] [Server thread/INFO]: Selecting global world spawn...
+[15:51:30] [Server thread/INFO]: Selecting global world spawn...
+[15:51:32] [Server thread/INFO]: Done (5.203s)! For help, type "help"
+[15:51:32] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[15:51:32] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[15:51:32] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[15:51:32] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[15:51:32] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[15:51:32] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 200.069336ms!
+[15:51:32] [Server thread/WARN]: Missing item image: minecraft/exposed_copper_golem_statue.png
+[15:51:32] [Server thread/INFO]: GameState changed: PREGAME -> PREGAME
+[15:51:32] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[15:51:32] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5759240380768311479
+[15:51:32] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 1 unobtainable items
+[15:51:33] [Server thread/INFO]: [MenuController] Locating spawn position...
+[15:51:33] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 3.923234ms!
+[15:51:33] [Server thread/INFO]: Set lobby spawnpoint to ([0, 17, 1], -180.0)
+[15:51:33] [Server thread/INFO]: [MenuController] Locating menu position...
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.UnsupportedOperationException: direct buffer
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.buffer.PooledUnsafeDirectByteBuf.array(PooledUnsafeDirectByteBuf.java:226)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//net.minecraft.class_3238.channelRead(class_3238.java:564)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[15:51:33] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:51:33] [Server thread/INFO]: [MenuController] Locating menu position... - done in 473.798171ms!
+[15:51:33] [Server thread/INFO]: Set menu position to ( 0.000E+0  1.700E+1 -5.000E+0  1.000E+0)
+[15:51:33] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[15:51:33] [Server thread/INFO]: [MenuController] Locating team entities...
+[15:51:34] [Server thread/INFO]: [MenuController] Locating team entities... - done in 622.746498ms!
+[15:51:34] [Server thread/INFO]: Re-drawing map_null for team null (33.109763ms)
+[15:51:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2157ms or 43 ticks behind
+[15:51:34] [Server thread/INFO]: Re-drawing map_null for team null (159.501479ms)
+[15:51:37] [User Authenticator #0/INFO]: UUID of player zPaio_ is 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[15:51:39] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[15:51:39] [Server thread/INFO]: Preparing spawn area: 0%
+[15:51:39] [Server thread/INFO]: Preparing spawn area: 0%
+[15:51:40] [Server thread/INFO]: zPaio_[/127.136.100.151:39653] logged in with entity id 507 at (-8.394656544652163, 21.0, -0.7870056557808177)
+[15:51:40] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting stats hash to player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[15:51:40] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[15:51:40] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SkinsRestorer v15.9.3
+[15:51:40] [Server thread/INFO]: zPaio_ joined the game
+[15:51:40] [Server thread/INFO]: [voicechat] Received secret request of zPaio_ (20)
+[15:51:40] [Server thread/INFO]: [voicechat] Sent secret to zPaio_
+[15:51:40] [IO-Worker-1/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[15:51:40] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[15:51:40] [IO-Worker-2/INFO]: [StatsSyncController] Requesting 4 missing gameIds from the client
+[15:51:46] [Server thread/INFO]: zPaio_ issued server command: /plugins
+[15:51:55] [Server thread/INFO]: zPaio_ issued server command: /plugins
+[15:52:14] [Server thread/INFO]: zPaio_ issued server command: /
+[15:52:15] [Server thread/INFO]: zPaio_ issued server command: /help
+[15:52:24] [Server thread/INFO]: Stopping the server
+[15:52:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.9.3
+[15:52:24] [Server thread/ERROR]: Error occurred while disabling SkinsRestorer v15.9.3 (Is it up to date?)
+[15:52:24] [Server thread/INFO]: [ConnectionFactory] Closing stats data source...
+[15:52:24] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
+[15:52:24] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
+[15:52:24] [Server thread/INFO]: Stopping server
+[15:52:24] [Server thread/INFO]: Saving players
+[15:52:24] [Server thread/INFO]: zPaio_ lost connection: Server closed
+[15:52:24] [Server thread/INFO]: zPaio_ left the game
+[15:52:24] [Server thread/INFO]: zPaio_ lost connection: Server closed
+[15:52:24] [Server thread/INFO]: zPaio_ left the game
+[15:52:24] [Server thread/INFO]: Saving worlds
+[15:52:24] [Server thread/INFO]: ServerLevel[world]/bingo:lobby: waiting for 2209 chunks to unload
+[15:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:52:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/bingo:lobby
+[15:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[15:52:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:52:24] [C2ME Storage #3/INFO]: Storage thread Thread[#73,C2ME Storage #3,5,main] stopped
+[15:52:24] [C2ME Storage #2/INFO]: Storage thread Thread[#71,C2ME Storage #2,5,main] stopped
+[15:52:24] [C2ME Storage #1/INFO]: Storage thread Thread[#70,C2ME Storage #1,5,main] stopped
+[15:52:24] [C2ME Storage #6/INFO]: Storage thread Thread[#76,C2ME Storage #6,5,main] stopped
+[15:52:24] [C2ME Storage #5/INFO]: Storage thread Thread[#75,C2ME Storage #5,5,main] stopped
+[15:52:24] [C2ME Storage #4/INFO]: Storage thread Thread[#74,C2ME Storage #4,5,main] stopped
+[15:52:24] [C2ME Storage #9/INFO]: Storage thread Thread[#79,C2ME Storage #9,5,main] stopped
+[15:52:24] [C2ME Storage #8/INFO]: Storage thread Thread[#78,C2ME Storage #8,5,main] stopped
+[15:52:24] [C2ME Storage #7/INFO]: Storage thread Thread[#77,C2ME Storage #7,5,main] stopped
+[15:52:24] [C2ME Storage #12/INFO]: Storage thread Thread[#82,C2ME Storage #12,5,main] stopped
+[15:52:24] [C2ME Storage #11/INFO]: Storage thread Thread[#81,C2ME Storage #11,5,main] stopped
+[15:52:24] [C2ME Storage #10/INFO]: Storage thread Thread[#80,C2ME Storage #10,5,main] stopped
+[15:52:24] [Server thread/INFO]: [ScopeManager] Closing server scope...
+[15:52:24] [Server thread/ERROR]: getScope invoked, but the server scope does not exist!
+[15:52:24] [Server thread/INFO]: Goodbye!
