@@ -1,0 +1,947 @@
+[04:37:04] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[04:37:07] [main/INFO]: Loading 108 mods:
+	- c2me 0.3.6.0.0+1.21.11
+	   |-- c2me-base 0.3.6.0.0+1.21.11
+	   |-- c2me-client-uncapvd 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-general-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6.0.0+1.21.11
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6.0.0+1.21.11
+	   |-- c2me-notickvd 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-allocs 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-chunkio 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-dfc 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-math 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-scheduling 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-worldgen-general 0.3.6.0.0+1.21.11
+	   |-- c2me-opts-worldgen-vanilla 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunk-serializer 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunk-system 0.3.6.0.0+1.21.11
+	   |-- c2me-rewrites-chunkio 0.3.6.0.0+1.21.11
+	   |-- c2me-server-utils 0.3.6.0.0+1.21.11
+	   |-- c2me-threading-lighting 0.3.6.0.0+1.21.11
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.141.1+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.46+b6ef3aec3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.14+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.2+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.2+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.9+7edacff13e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.3
+	- java 21
+	- jei 27.4.0.15
+	- lithium 0.21.2+mc1.21.11
+	- minecraft 1.21.11
+	- simpleupdatechecker 1.4.0+1.21.11
+	   \-- server_translations_api 2.5.2+1.21.9-pre3
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- skinrestorer 2.7.0+1.21.11-fabric
+	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
+	- voicechat 1.21.11-2.6.11
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f53
+	   |-- fabric-rendering-v1 16.2.5+1fb1cde953
+	   \-- voicechat_api 2.6.0
+	- yet-another-minecraft-bingo 2.9.6+mc1.21.11
+	   |-- com_zaxxer_hikaricp 7.0.2
+	   |-- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	   |-- org_xerial_sqlite-jdbc 3.50.3.0
+	   \-- yet-another-minecraft-bingo-api 2.9.6
+	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+[04:37:08] [main/INFO]: Applying default options... (YOSBR)
+[04:37:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server1/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:37:08] [main/INFO]: Compatibility level set to JAVA_16
+[04:37:08] [main/INFO]: Compatibility level set to JAVA_21
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[04:37:08] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[04:37:08] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[04:37:08] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[04:37:08] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[04:37:08] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:37:08] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:37:08] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:37:08] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:37:09] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[04:37:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04:37:18] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to read Modrinth version list! Got status code 404 with body ''
+[04:37:18] [main/INFO]: [voicechat] Compatibility version 20
+[04:37:18] [main/INFO]: [voicechat] Loading plugins
+[04:37:18] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[04:37:18] [main/INFO]: [voicechat] Initializing plugins
+[04:37:18] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[04:37:18] [main/INFO]: [voicechat] Registering events for 'yet-another-minecraft-bingo'
+[04:37:18] [main/INFO]: Starting Bingo migration runner...
+[04:37:18] [main/INFO]: Started 10 definitions in 3.14 ms
+[04:37:19] [main/INFO]: Starting Bingo Server application...
+[04:37:19] [main/INFO]: Started 221 definitions in 0.955 ms
+[04:37:19] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in /workspaces/server1/servidor_minecraft/world/datapacks/bingo.zip
+[04:37:19] [main/INFO]: Running database migrations...
+[04:37:19] [main/INFO]: HikariPool-1 - Starting...
+[04:37:19] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@647b4d00
+[04:37:19] [main/INFO]: HikariPool-1 - Start completed.
+[04:37:19] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[04:37:19] [main/INFO]: Running database migrations... - done in 262.693187ms!
+[04:37:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:37:21] [Worker-Main-3/INFO]: [DataLoader] Reloading bingo data...
+[04:37:21] [Worker-Main-3/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[04:37:21] [Worker-Main-3/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[04:37:21] [Worker-Main-3/INFO]: [TagLoader] Reloading BINGO objective tags...
+[04:37:21] [Worker-Main-2/INFO]: [TeamPresetLoader] Reloading BINGO team presets...
+[04:37:21] [Worker-Main-2/INFO]: [SpawnKitLoader] Reloading BINGO spawn kits...
+[04:37:22] [Worker-Main-3/INFO]: [ObtainableItemsLoader] Found 2878 items referenced in resource files
+[04:37:22] [Worker-Main-3/INFO]: [DataLoader] Prepared in 637.162447ms!
+[04:37:22] [main/INFO]: Loaded 1470 recipes
+[04:37:22] [main/INFO]: Loaded 1584 advancements
+[04:37:22] [main/INFO]: [DataLoader] Completed in 654.280795ms!
+[04:37:22] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 537 translation keys
+[04:37:22] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.791 ms
+[04:37:22] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[04:37:22] [Server thread/INFO]: Loading properties
+[04:37:22] [Server thread/INFO]: Default game type: SURVIVAL
+[04:37:22] [Server thread/INFO]: Generating keypair
+[04:37:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:37:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:37:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:37:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:37:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:37:22] [Server thread/INFO]: Preparing level "world"
+[04:37:22] [Server thread/INFO]: Enforcing safe world random access
+[04:37:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 606.8 ms
+[04:37:23] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[04:37:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.28 ms
+[04:37:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.940 ms
+[04:37:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 34.24 μs
+[04:37:24] [Server thread/INFO]: Done (1.310s)! For help, type "help"
+[04:37:24] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[04:37:24] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[04:37:24] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[04:37:24] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[04:37:25] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[04:37:25] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 384.073146ms!
+[04:37:25] [Server thread/WARN]: Missing item image: minecraft/exposed_copper_golem_statue.png
+[04:37:25] [Server thread/INFO]: GameState changed: PLAYING -> PLAYING
+[04:37:25] [Server thread/INFO]: Loading offline player data for BarcoBasureroo
+[04:37:25] [Server thread/INFO]: Loading offline player data for BarcoBasureroo - done in 267.168714ms!
+[04:37:25] [Server thread/INFO]: Loading offline player data for SpiceYellow
+[04:37:25] [Server thread/INFO]: Loading offline player data for SpiceYellow - done in 42.416007ms!
+[04:37:25] [Server thread/INFO]: Loading offline player data for JeffreyEpstein
+[04:37:26] [Server thread/INFO]: Loading offline player data for JeffreyEpstein - done in 35.671001ms!
+[04:37:26] [Server thread/INFO]: Loading offline player data for iWhait
+[04:37:26] [Server thread/INFO]: Loading offline player data for iWhait - done in 51.994446ms!
+[04:37:26] [Server thread/INFO]: Loading offline player data for zPaio_
+[04:37:26] [Server thread/INFO]: Loading offline player data for zPaio_ - done in 46.070607ms!
+[04:37:26] [Server thread/INFO]: Loading offline player data for NosoyShox
+[04:37:26] [Server thread/INFO]: Loading offline player data for NosoyShox - done in 48.574894ms!
+[04:37:26] [Server thread/INFO]: Re-drawing map_66 for team orange (420.919003ms)
+[04:37:26] [Server thread/INFO]: Re-drawing map_67 for team gray (3.942663ms)
+[04:37:26] [Server thread/INFO]: Re-drawing map_68 for team yellow (1.105498ms)
+[04:37:26] [Server thread/INFO]: Re-drawing map_69 for team green (1.032660ms)
+[04:37:26] [Server thread/INFO]: Re-drawing map_70 for team pink (1.553131ms)
+[04:37:26] [Server thread/INFO]: Re-drawing map_71 for team blue (1.078338ms)
+[04:37:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2745ms or 54 ticks behind
+[04:37:26] [Server thread/INFO]: Game was inactive for PT2M35.761280507S - updating timer
+[04:37:29] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:37:29] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:30] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:30] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:31] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:37:31] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:31] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:32] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:32] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:32] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:37:33] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:37:33] [Server thread/INFO]: zPaio_[/127.106.167.171:35409] logged in with entity id 169 at (1032.7176520961193, 66.0, -263.256865674205)
+[04:37:33] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting stats hash to player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:37:33] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:37:33] [Server thread/INFO]: zPaio_ joined the game
+[04:37:34] [Server thread/INFO]: iWhait[/127.83.92.108:36489] logged in with entity id 170 at (1657.5316334592144, 65.17675927506424, 284.94140609401614)
+[04:37:34] [Server thread/INFO]: [VoiceIntegration] Deferring group join for c6986682-5b95-3187-bdb5-64a18bedc24b
+[04:37:34] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting stats hash to player c6986682-5b95-3187-bdb5-64a18bedc24b
+[04:37:34] [Server thread/INFO]: iWhait joined the game
+[04:37:35] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:35] [Server thread/INFO]: Preparing spawn area: 0%
+[04:37:35] [Server thread/INFO]: [voicechat] Received secret request of zPaio_ (20)
+[04:37:35] [Server thread/INFO]: [voicechat] Sent secret to zPaio_
+[04:37:35] [IO-Worker-1/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:37:35] [IO-Worker-2/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player c6986682-5b95-3187-bdb5-64a18bedc24b
+[04:37:35] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:37:35] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:37:35] [Server thread/INFO]: NosoyShox[/127.152.175.55:33143] logged in with entity id 353 at (398.9366428605839, 68.0, 298.9257561604855)
+[04:37:35] [IO-Worker-3/INFO]: [StatsSyncController] Broadcasting stats hash to player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[04:37:35] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 60c948e2-7f87-3881-a203-bb41d7b1a230
+[04:37:35] [Server thread/INFO]: NosoyShox joined the game
+[04:37:35] [Server thread/INFO]: BarcoBasureroo[/127.152.211.153:39455] logged in with entity id 354 at (713.8278108601695, 91.57220934185268, -0.9098853976660295)
+[04:37:35] [Server thread/INFO]: [VoiceIntegration] Deferring group join for b8e8aa7f-bfe3-3395-96d8-498a791cf635
+[04:37:35] [IO-Worker-3/INFO]: [StatsSyncController] Broadcasting stats hash to player b8e8aa7f-bfe3-3395-96d8-498a791cf635
+[04:37:35] [Server thread/INFO]: BarcoBasureroo joined the game
+[04:37:35] [Server thread/INFO]: Game was inactive for PT1.822593968S - updating timer
+[04:37:36] [Server thread/INFO]: [voicechat] Received secret request of NosoyShox (20)
+[04:37:36] [Server thread/INFO]: [voicechat] Sent secret to NosoyShox
+[04:37:36] [Server thread/INFO]: [voicechat] Received secret request of BarcoBasureroo (20)
+[04:37:36] [IO-Worker-1/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[04:37:36] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:37:36] [Server thread/INFO]: [voicechat] Sent secret to BarcoBasureroo
+[04:37:37] [IO-Worker-2/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player b8e8aa7f-bfe3-3395-96d8-498a791cf635
+[04:37:37] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:37:43] [Server thread/WARN]: UUID of added entity already exists: class_10730['Cow'/822, l='ServerLevel[world]', x=552.00, y=63.00, z=118.00]
+[04:37:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17133ms or 342 ticks behind
+[04:38:00] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:38:00] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:00] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:00] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:00] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:03] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:04] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:05] [Server thread/INFO]: adreanup (ef0a938f-9cd6-318b-9584-13e3882edf1d) lost connection: Disconnected
+[04:38:07] [Server thread/WARN]: BarcoBasureroo moved too quickly! -5.903748599312735,16.389757873689177,3.5095069460010393
+[04:38:08] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:38:08] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:09] [Server thread/INFO]: adreanup[/127.35.226.170:43175] logged in with entity id 1519 at (-4.699999988079071, 19.0, 3.2870897209339875)
+[04:38:09] [Server thread/INFO]: [VoiceIntegration] Deferring group join for ef0a938f-9cd6-318b-9584-13e3882edf1d
+[04:38:09] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting stats hash to player ef0a938f-9cd6-318b-9584-13e3882edf1d
+[04:38:09] [Server thread/INFO]: adreanup joined the game
+[04:38:09] [Server thread/INFO]: [TeamController] Manually updated teams for 'adreanup'
+[04:38:09] [Server thread/INFO]: [VoiceIntegration] Deferring group join for ef0a938f-9cd6-318b-9584-13e3882edf1d
+[04:38:09] [Server thread/INFO]: adreanup has reached the goal [Sky's the Limit]
+[04:38:09] [Server thread/INFO]: [voicechat] Received secret request of adreanup (20)
+[04:38:09] [Server thread/INFO]: [voicechat] Sent secret to adreanup
+[04:38:09] [IO-Worker-2/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player ef0a938f-9cd6-318b-9584-13e3882edf1d
+[04:38:09] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:38:15] [Server thread/WARN]: UUID of added entity already exists: class_1694['Minecart with Chest'/1880, l='ServerLevel[world]', x=115.50, y=6.06, z=356.50]
+[04:38:18] [Server thread/WARN]: UUID of added entity already exists: class_1694['Minecart with Chest'/1948, l='ServerLevel[world]', x=95.50, y=15.06, z=367.50]
+[04:38:18] [Server thread/WARN]: UUID of added entity already exists: class_1694['Minecart with Chest'/1984, l='ServerLevel[world]', x=86.50, y=24.06, z=383.50]
+[04:38:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17943ms or 358 ticks behind
+[04:38:37] [ForkJoinPool.commonPool-worker-1/WARN]: Failed to fetch skin 'mojang:SpiceYellow'
+java.lang.IllegalStateException: not found
+	at knot//net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:53)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:59)
+	at knot//net.minecraft.class_3312.method_14509(class_3312.java:75)
+	at knot//net.minecraft.class_3312.method_14515(class_3312.java:136)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:90)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2103)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at knot//net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2103)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2087)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[04:38:37] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:38:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:37] [Server thread/INFO]: iWhait has made the advancement [Ice Bucket Challenge]
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:38] [Server thread/INFO]: JeffreyEpstein[/127.183.57.191:49761] logged in with entity id 3422 at (-1.5560494280812027, 16.0, 1.5361271537398367)
+[04:38:38] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 62984d4b-5f72-3cc0-9ec8-3496bce35ccf
+[04:38:38] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting stats hash to player 62984d4b-5f72-3cc0-9ec8-3496bce35ccf
+[04:38:38] [Server thread/INFO]: JeffreyEpstein joined the game
+[04:38:39] [Server thread/INFO]: JeffreyEpstein has reached the goal [Sky's the Limit]
+[04:38:39] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:39] [Server thread/WARN]: NosoyShox moved too quickly! 0.23232261367496676,-18.119860396463565,0.15263362639007028
+[04:38:39] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:40] [Server thread/INFO]: SpiceYellow[/127.183.57.191:47045] logged in with entity id 3588 at (1959.273468040882, 500.6815350668399, 339.71448300636484)
+[04:38:40] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 56c79134-0adc-348c-a0d2-58bf9876cd60
+[04:38:40] [IO-Worker-2/INFO]: [StatsSyncController] Broadcasting stats hash to player 56c79134-0adc-348c-a0d2-58bf9876cd60
+[04:38:40] [Server thread/INFO]: SpiceYellow joined the game
+[04:38:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10209ms or 204 ticks behind
+[04:39:09] [Server thread/INFO]: [Not Secure] <JeffreyEpstein> +1
+[04:39:09] [Server thread/INFO]: [zPaio_: Set own game mode to Spectator Mode]
+[04:39:09] [Server thread/WARN]: SpiceYellow moved too quickly! -18.890274471544217,-2.5549375889178236,-1.1114734963643969
+[04:39:11] [Server thread/INFO]: iWhait has made the advancement [Hot Stuff]
+[04:39:13] [Server thread/INFO]: [zPaio_: Set own game mode to Creative Mode]
+[04:39:13] [Server thread/INFO]: [Not Secure] <SpiceYellow> `+1
+[04:39:14] [Server thread/INFO]: NosoyShox has made the advancement [Isn't It Iron Pick]
+[04:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8832ms or 176 ticks behind
+[04:39:22] [Server thread/INFO]: [zPaio_: Resetting the game...]
+[04:39:22] [Server thread/INFO]: Resetting worlds...
+[04:39:22] [Server thread/INFO]: [Reset] Clearing game data
+[04:39:22] [Server thread/INFO]: [Reset] Recreating worlds
+[04:39:22] [Server thread/INFO]: [Reset] Saving...
+[04:39:23] [Server thread/INFO]: [Reset] Saving... - done in 251.275698ms!
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
+[04:39:23] [C2ME Storage #3/INFO]: Storage thread Thread[#62,C2ME Storage #3,5,main] stopped
+[04:39:23] [C2ME Storage #2/INFO]: Storage thread Thread[#61,C2ME Storage #2,5,main] stopped
+[04:39:23] [C2ME Storage #1/INFO]: Storage thread Thread[#60,C2ME Storage #1,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 225.943648ms!
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
+[04:39:23] [C2ME Storage #5/INFO]: Storage thread Thread[#64,C2ME Storage #5,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 674.83us!
+[04:39:23] [C2ME Storage #6/INFO]: Storage thread Thread[#65,C2ME Storage #6,5,main] stopped
+[04:39:23] [C2ME Storage #4/INFO]: Storage thread Thread[#63,C2ME Storage #4,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
+[04:39:23] [C2ME Storage #8/INFO]: Storage thread Thread[#67,C2ME Storage #8,5,main] stopped
+[04:39:23] [C2ME Storage #7/INFO]: Storage thread Thread[#66,C2ME Storage #7,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 372.281us!
+[04:39:23] [C2ME Storage #9/INFO]: Storage thread Thread[#68,C2ME Storage #9,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing bingo:lobby...
+[04:39:23] [C2ME Storage #12/INFO]: Storage thread Thread[#71,C2ME Storage #12,5,main] stopped
+[04:39:23] [C2ME Storage #11/INFO]: Storage thread Thread[#70,C2ME Storage #11,5,main] stopped
+[04:39:23] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 11.672607ms!
+[04:39:23] [C2ME Storage #10/INFO]: Storage thread Thread[#69,C2ME Storage #10,5,main] stopped
+[04:39:23] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[04:39:23] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 140.165783ms!
+[04:39:23] [Server thread/INFO]: [Reset] Loading new worlds...
+[04:39:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 74.35 ms
+[04:39:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.064 ms
+[04:39:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.899 ms
+[04:39:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 14.65 μs
+[04:39:23] [Server thread/INFO]: [Reset] Loading new worlds... - done in 166.863962ms!
+[04:39:23] [Server thread/INFO]: [Reset] Transferring game state
+[04:39:23] [Server thread/INFO]: [Reset] Teleporting players back to lobby
+[04:39:23] [Server thread/INFO]: GameState changed: PLAYING -> PREGAME
+[04:39:23] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[04:39:23] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:39:24] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 0 unobtainable items
+[04:39:24] [Server thread/INFO]: [MenuController] Locating spawn position...
+[04:39:26] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 2.056694594s!
+[04:39:26] [Server thread/INFO]: Set lobby spawnpoint to ([0, 17, 1], -180.0)
+[04:39:26] [Server thread/INFO]: [MenuController] Locating menu position...
+[04:39:26] [Server thread/INFO]: [MenuController] Locating menu position... - done in 147.024092ms!
+[04:39:26] [Server thread/INFO]: Set menu position to ( 0.000E+0  1.700E+1 -5.000E+0  1.000E+0)
+[04:39:26] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[04:39:26] [Server thread/INFO]: [MenuController] Locating team entities...
+[04:39:26] [Server thread/INFO]: [MenuController] Locating team entities... - done in 421.638235ms!
+[04:39:26] [Server thread/INFO]: Re-drawing map_null for team null (1.085319ms)
+[04:39:27] [Server thread/INFO]: Resetting worlds... - done in 4.094404128s!
+[04:39:27] [Server thread/INFO]: Re-drawing map_null for team null (100.627255ms)
+[04:39:32] [Server thread/INFO]: [Not Secure] <BarcoBasureroo> como lloran
+[04:39:34] [Server thread/INFO]: [Not Secure] <BarcoBasureroo> >:v
+[04:39:53] [Server thread/INFO]: [SpiceYellow: Skin changed]
+[04:40:16] [Server thread/INFO]: Creating a map for team bingo_red - mapId=75
+[04:40:26] [Server thread/INFO]: [Not Secure] <JeffreyEpstein> ADREANUP EN KICK!!!!!!!!!!! ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!! ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN
+[04:40:27] [Server thread/INFO]: [Not Secure] <JeffreyEpstein> ADREANUP EN KICK!!!!!!!!!!! ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!
+[04:40:28] [Server thread/INFO]: [Not Secure] <JeffreyEpstein> ADREANUP EN KICK!!!!!!!!!!! ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!ADREANUP EN KICK!!!!!!!!!!!
+[04:40:32] [Server thread/INFO]: JeffreyEpstein lost connection: Disconnected
+[04:40:32] [Server thread/INFO]: JeffreyEpstein left the game
+[04:40:32] [Server thread/INFO]: [voicechat] Disconnecting client JeffreyEpstein
+[04:40:40] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=76
+[04:40:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:40:54] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 0 unobtainable items
+[04:40:54] [Server thread/INFO]: Re-drawing map_null for team null (76.337455ms)
+[04:40:58] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d...
+[04:40:58] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[04:41:05] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:41:05] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 0 unobtainable items
+[04:41:05] [Server thread/INFO]: Re-drawing map_null for team null (47.022754ms)
+[04:41:06] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:41:06] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:41:07] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:41:07] [Server thread/INFO]: Re-drawing map_null for team null (12.623367ms)
+[04:41:08] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:41:50] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 56c79134-0adc-348c-a0d2-58bf9876cd60...
+[04:41:50] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[04:42:03] [Server thread/INFO]: [Not Secure] <adreanup> 6 lineas
+[04:42:13] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:42:13] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 0 unobtainable items
+[04:42:13] [Server thread/INFO]: Re-drawing map_null for team null (10.834766ms)
+[04:42:16] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:42:16] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:42:18] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:42:18] [Server thread/INFO]: Re-drawing map_null for team null (22.367437ms)
+[04:42:22] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:42:22] [Server thread/INFO]: Re-drawing map_null for team null (23.126277ms)
+[04:42:59] [Server thread/INFO]: [Not Secure] <BarcoBasureroo> me aburri
+[04:43:00] [Server thread/INFO]: [Not Secure] <BarcoBasureroo> chao
+[04:43:01] [Server thread/INFO]: BarcoBasureroo lost connection: Disconnected
+[04:43:01] [Server thread/INFO]: BarcoBasureroo left the game
+[04:43:01] [Server thread/INFO]: [voicechat] Disconnecting client BarcoBasureroo
+[04:43:08] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:08] [Server thread/INFO]: [UnobtainableTagProvider] Excluding 0 unobtainable items
+[04:43:09] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:11] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:12] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:13] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:14] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:15] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d...
+[04:43:16] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[04:43:16] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:17] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:18] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:18] [Server thread/INFO]: Re-drawing map_null for team null (2.292807ms)
+[04:43:19] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:19] [Server thread/INFO]: Re-drawing map_null for team null (5.226921ms)
+[04:43:20] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:20] [Server thread/INFO]: Re-drawing map_null for team null (5.907524ms)
+[04:43:21] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:21] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:21] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:23] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:23] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:24] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:24] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:24] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8540774803976329435
+[04:43:25] [Server thread/INFO]: Re-drawing map_null for team null (36.645265ms)
+[04:43:27] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d...
+[04:43:27] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[04:43:37] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=77
+[04:43:58] [Server thread/INFO]: Creating a map for team bingo_gray - mapId=78
+[04:44:04] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d...
+[04:44:04] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[04:44:17] [Server thread/WARN]: zPaio_ was kicked for floating too long!
+[04:44:17] [Server thread/INFO]: zPaio_ lost connection: Flying is not enabled on this server
+[04:44:17] [Server thread/INFO]: zPaio_ left the game
+[04:44:17] [Server thread/INFO]: [voicechat] Disconnecting client zPaio_
+[04:44:17] [Server thread/WARN]: handleDisconnection() called twice
+[04:44:18] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=79
+[04:44:18] [Server thread/INFO]: [ReadyService] Starting the PREGAME timer for 600 seconds
+[04:44:24] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[04:44:24] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 60c948e2-7f87-3881-a203-bb41d7b1a230
+[04:44:24] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 56c79134-0adc-348c-a0d2-58bf9876cd60
+[04:44:24] [Server thread/INFO]: [VoiceIntegration] Deferring group join for ef0a938f-9cd6-318b-9584-13e3882edf1d
+[04:44:24] [Server thread/INFO]: [VoiceIntegration] Deferring group join for c6986682-5b95-3187-bdb5-64a18bedc24b
+[04:44:24] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[04:44:24] [Server thread/INFO]: Spawning team bingo_red near chunk (14, -13)
+[04:44:24] [Server thread/INFO]: Spawning team bingo_aqua near chunk (-8, -17)
+[04:44:24] [Server thread/INFO]: Spawning team bingo_yellow near chunk (-19, 2)
+[04:44:24] [Server thread/INFO]: Spawning team bingo_gray near chunk (-3, 19)
+[04:44:24] [Server thread/INFO]: Spawning team bingo_blue near chunk (17, 9)
+[04:44:24] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[04:44:24] [Server thread/INFO]:   BINGO Start!
+[04:44:24] [Server thread/INFO]:   Mode: Standard
+[04:44:24] [Server thread/INFO]:   Features: Elytra, NightVis, PvP
+[04:44:24] [Server thread/INFO]:   Goal: Full Card [Lines]
+[04:44:24] [Server thread/INFO]:   Difficulty: 6, 4, 7, 7, 2
+[04:44:24] [Server thread/INFO]:   Filter: Everything
+[04:44:24] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[04:44:26] [Server thread/INFO]: Using spawn position [-39, 72, 318] for bingo_gray
+[04:44:26] [Server thread/INFO]: Skipping chunk (-8, -17) which contains no valid spawn locations
+[04:44:26] [Server thread/INFO]: Skipping chunk (17, 9) which contains no valid spawn locations
+[04:44:27] [Server thread/INFO]: Using spawn position [-292, 68, 43] for bingo_yellow
+[04:44:27] [Server thread/INFO]: Using spawn position [235, 71, -195] for bingo_red
+[04:44:27] [Server thread/INFO]: Skipping chunk (-9, -17) which contains no valid spawn locations
+[04:44:27] [Server thread/INFO]: Using spawn position [297, 65, 149] for bingo_blue
+[04:44:28] [Server thread/INFO]: Skipping chunk (-10, -17) which contains no valid spawn locations
+[04:44:28] [Server thread/INFO]: Skipping chunk (-11, -17) which contains no valid spawn locations
+[04:44:28] [Server thread/INFO]: Skipping chunk (-12, -17) which contains no valid spawn locations
+[04:44:28] [Server thread/INFO]: Skipping chunk (-17, -17) which contains no valid spawn locations
+[04:44:29] [Server thread/INFO]: Skipping chunk (-18, -17) which contains no valid spawn locations
+[04:44:29] [Server thread/INFO]: Using spawn position [-294, 66, -270] for bingo_aqua
+[04:44:29] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[04:44:29] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 356 chunks within a view distance of 4...
+[04:44:47] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in PT18.189045148S
+[04:44:47] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
+[04:44:47] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
+[04:44:48] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (PT0.496711928S)
+[04:44:48] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
+[04:44:56] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
+[04:44:56] [Server thread/INFO]: NosoyShox has reached the goal [Sky's the Limit]
+[04:44:56] [Server thread/INFO]: SpiceYellow has reached the goal [Sky's the Limit]
+[04:44:56] [Server thread/INFO]: adreanup has reached the goal [Sky's the Limit]
+[04:44:56] [Server thread/INFO]: iWhait has reached the goal [Sky's the Limit]
+[04:45:00] [Server thread/WARN]: adreanup moved too quickly! 5.274052000701545,4.308818460436754,-17.267036472911727
+[04:46:11] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: SpiceYellow has made the advancement [Ice Bucket Challenge]
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:46:14] [Server thread/INFO]: Keentami[/127.152.211.153:39521] logged in with entity id 12501 at (-0.5, 95.0, -8.5)
+[04:46:14] [IO-Worker-19/INFO]: [StatsSyncController] Broadcasting stats hash to player 03f3db98-e1d0-3c2f-b3e9-dd9cb79bd81b
+[04:46:14] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 03f3db98-e1d0-3c2f-b3e9-dd9cb79bd81b
+[04:46:14] [Server thread/INFO]: Keentami joined the game
+[04:46:15] [Server thread/INFO]: [voicechat] Received secret request of Keentami (20)
+[04:46:15] [Server thread/INFO]: [voicechat] Sent secret to Keentami
+[04:46:37] [Server thread/INFO]: [TeamController] Removing bingo team for 'bingo_green'
+[04:47:01] [Server thread/INFO]: iWhait has made the advancement [Stone Age]
+[04:47:04] [Server thread/INFO]: [Not Secure] <Keentami> :v
+[04:47:16] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:16] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:17] [Server thread/INFO]: zPaio_[/127.106.167.171:32797] logged in with entity id 16295 at (8.945696626589871, 22.740647579523714, -11.60946148203609)
+[04:47:17] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:47:17] [IO-Worker-20/INFO]: [StatsSyncController] Broadcasting stats hash to player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:47:17] [Server thread/INFO]: zPaio_ joined the game
+[04:47:17] [Server thread/INFO]: [voicechat] Received secret request of zPaio_ (20)
+[04:47:17] [Server thread/INFO]: [voicechat] Sent secret to zPaio_
+[04:47:18] [Server thread/INFO]: [Not Secure] <Keentami> vava
+[04:47:18] [IO-Worker-20/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 674f86b2-e2e0-3306-8ee4-63f4de4a818d
+[04:47:18] [IO-Worker-20/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[04:47:20] [Server thread/WARN]: iWhait moved too quickly! -0.877030087693754,4.3745995687966825,-17.28024612053298
+[04:47:20] [Server thread/WARN]: NosoyShox moved too quickly! -13.66667384157131,2.007037584596759,11.005640633325129
+[04:47:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2089ms or 41 ticks behind
+[04:47:24] [Server thread/WARN]: Keentami moved too quickly! -1.1230712270831589,0.0,10.777404355646837
+[04:47:24] [Server thread/WARN]: iWhait moved too quickly! 4.123827765508565,-4.230489176922703,17.809439327518362
+[04:47:24] [Server thread/WARN]: adreanup moved too quickly! -4.801380112939221,-2.8142046080529326,16.455035045895357
+[04:47:24] [Server thread/WARN]: NosoyShox moved too quickly! -14.590952694920361,2.196383526842311,11.690179228050056
+[04:47:26] [Server thread/WARN]: Keentami moved too quickly! -1.1051761202112012,0.0,10.346911900129555
+[04:47:26] [Server thread/WARN]: iWhait moved too quickly! 7.261029151725779,1.1252335502084492,16.684508230202994
+[04:47:26] [Server thread/WARN]: adreanup moved too quickly! -8.115079403834748,3.039065530952911,15.542842091473858
+[04:47:26] [Server thread/WARN]: NosoyShox moved too quickly! -14.609544340635239,2.194715892421243,11.705074737280484
+[04:47:28] [Server thread/WARN]: iWhait moved too quickly! 6.998473874048102,-0.9578122475534769,16.133630375692917
+[04:47:28] [Server thread/WARN]: Keentami moved too quickly! -1.201739511210917,0.0,10.478651406175231
+[04:47:28] [Server thread/WARN]: NosoyShox moved too quickly! -14.422995559048331,2.1739496814967367,11.555613030625409
+[04:47:28] [Server thread/WARN]: adreanup moved too quickly! 12.959630576960834,-2.4132450931444964,12.56996819269736
+[04:47:29] [Server thread/WARN]: NosoyShox moved too quickly! -14.70643129674886,2.190825706829912,11.782699955147564
+[04:47:31] [Server thread/INFO]: Keentami lost connection: Disconnected
+[04:47:31] [Server thread/INFO]: Keentami left the game
+[04:47:31] [Server thread/INFO]: [voicechat] Disconnecting client Keentami
+[04:47:31] [Server thread/WARN]: NosoyShox moved too quickly! -13.642784361603844,2.0443511250503263,10.930512742482733
+[04:47:33] [Server thread/WARN]: adreanup moved too quickly! 12.820319196667668,10.124588327569796,-8.170911579240908
+[04:47:33] [Server thread/WARN]: NosoyShox moved too quickly! -14.284481545866356,2.0635272919355145,11.44463647730754
+[04:47:40] [Server thread/WARN]: NosoyShox moved too quickly! -13.574597895401666,1.9737634286219645,10.875882176027972
+[04:47:40] [Server thread/WARN]: adreanup moved too quickly! -1.709209025329173,-3.7971432504268705,-18.061504844283533
+[04:47:42] [Server thread/WARN]: NosoyShox moved too quickly! -13.859892878843766,1.8002122051313165,11.104458716507907
+[04:47:46] [Server thread/WARN]: NosoyShox moved too quickly! -13.622526744742117,2.0427620681446967,10.914282467681915
+[04:47:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12064ms or 241 ticks behind
+[04:47:54] [Server thread/WARN]: iWhait moved too quickly! -2.8128078216420818,-1.7038189009857234,-9.718263189306981
+[04:47:54] [Server thread/WARN]: NosoyShox moved too quickly! -15.286405603327239,-5.811400825171631,9.198556891306907
+[04:47:55] [ForkJoinPool.commonPool-worker-5/WARN]: Failed to fetch skin 'mojang:Lensad'
+java.lang.IllegalStateException: not found
+	at knot//net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:53)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:59)
+	at knot//net.minecraft.class_3312.method_14509(class_3312.java:75)
+	at knot//net.minecraft.class_3312.method_14515(class_3312.java:136)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:90)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2103)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at knot//net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2103)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2087)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[04:47:57] [Server thread/INFO]: iWhait lost connection: Disconnected
+[04:47:57] [Server thread/INFO]: iWhait left the game
+[04:47:57] [Server thread/INFO]: [voicechat] Disconnecting client iWhait
+[04:47:57] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:47:57] [Server thread/INFO]: Preparing spawn area: 0%
+[04:47:58] [Server thread/INFO]: Lensad[/127.152.211.153:46137] logged in with entity id 17410 at (-0.5, 95.0, -4.5)
+[04:47:58] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 74319f04-c05d-30cb-a1a5-e63881f28734
+[04:47:58] [IO-Worker-20/INFO]: [StatsSyncController] Broadcasting stats hash to player 74319f04-c05d-30cb-a1a5-e63881f28734
+[04:47:58] [Server thread/INFO]: Lensad joined the game
+[04:47:58] [Server thread/INFO]: [voicechat] Received secret request of Lensad (20)
+[04:47:58] [Server thread/INFO]: [voicechat] Sent secret to Lensad
+[04:48:10] [Server thread/INFO]: [Not Secure] <Lensad> hola amor adrean
+[04:48:14] [Server thread/INFO]: Lensad lost connection: Disconnected
+[04:48:15] [Server thread/INFO]: Lensad left the game
+[04:48:15] [Server thread/INFO]: [voicechat] Disconnecting client Lensad
+[04:48:19] [Server thread/INFO]: SpiceYellow has made the advancement [Stone Age]
+[04:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[04:48:30] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:48:30] [Server thread/INFO]: Preparing spawn area: 0%
+[04:48:31] [Server thread/INFO]: chiquitapia[/127.152.211.153:37769] logged in with entity id 19173 at (-1.5, 96.0, -0.5)
+[04:48:31] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 7682d335-2dac-389d-b0f4-7abd05144504
+[04:48:31] [IO-Worker-20/INFO]: [StatsSyncController] Broadcasting stats hash to player 7682d335-2dac-389d-b0f4-7abd05144504
+[04:48:31] [Server thread/INFO]: chiquitapia joined the game
+[04:48:31] [Server thread/INFO]: [voicechat] Received secret request of chiquitapia (20)
+[04:48:31] [Server thread/INFO]: [voicechat] Sent secret to chiquitapia
+[04:48:38] [Server thread/WARN]: NosoyShox moved too quickly! -11.341853618895584,3.1668250325849954,-13.733875279784115
+[04:48:38] [Server thread/INFO]: [Not Secure] <chiquitapia> :v
+[04:48:49] [Server thread/INFO]: SpiceYellow has made the advancement [Getting an Upgrade]
+[04:48:50] [Server thread/INFO]: chiquitapia lost connection: Disconnected
+[04:48:50] [Server thread/INFO]: chiquitapia left the game
+[04:48:50] [Server thread/INFO]: [voicechat] Disconnecting client chiquitapia
+[04:49:01] [Server thread/INFO]: SpiceYellow experienced kinetic energy
+[04:49:03] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.AfterRespawn, ScopedEvents$$Lambda/0x000079deb534a260):
+java.lang.NoSuchMethodError: 'net.minecraft.class_1928 net.minecraft.server.MinecraftServer.method_3767()'
+	at knot//me.jfenn.bingo.common.spawn.PlayerController._init_$lambda$2(PlayerController.kt:249)
+	at knot//me.jfenn.bingo.common.event.ScopedEvents.onPlayerRespawn$lambda$0(ScopedEvents.kt:46)
+	at knot//me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31)
+	at knot//me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$8(ServerEventsImpl.kt:85)
+	at knot//net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents.lambda$static$2(ServerPlayerEvents.java:47)
+	at knot//net.minecraft.class_3324.handler$zin000$fabric-entity-events-v1$afterRespawn(class_3324.java:968)
+	at knot//net.minecraft.class_3324.method_14556(class_3324.java:474)
+	at knot//net.minecraft.class_3244.method_12068(class_3244.java:1932)
+	at knot//net.minecraft.class_2799.method_12120(class_2799.java:32)
+	at knot//net.minecraft.class_2799.method_65081(class_2799.java:8)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:49:03] [Server thread/WARN]: NosoyShox moved too quickly! -15.8678006979967,-1.5958684549056983,-8.921405813304773
+[04:49:04] [ForkJoinPool.commonPool-worker-5/WARN]: Failed to fetch skin 'mojang:AdolfHitler'
+java.lang.IllegalStateException: not found
+	at knot//net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:104)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:53)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:59)
+	at knot//net.minecraft.class_3312.method_14509(class_3312.java:75)
+	at knot//net.minecraft.class_3312.method_14515(class_3312.java:136)
+	at knot//net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:90)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:63)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19)
+	at knot//net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:49)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2103)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at knot//net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2103)
+	at knot//net.minecraft.class_3248.mde5d4a6$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2087)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[04:49:07] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[04:49:07] [Server thread/INFO]: Preparing spawn area: 0%
+[04:49:07] [Server thread/INFO]: AdolfHitler[/127.152.211.153:48299] logged in with entity id 21433 at (-6.5, 95.0, 1.5)
+[04:49:07] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 420ff79d-da6f-373e-a38b-545c5c697a57
+[04:49:07] [IO-Worker-22/INFO]: [StatsSyncController] Broadcasting stats hash to player 420ff79d-da6f-373e-a38b-545c5c697a57
+[04:49:07] [Server thread/INFO]: AdolfHitler joined the game
+[04:49:08] [Server thread/INFO]: [voicechat] Received secret request of AdolfHitler (20)
+[04:49:08] [Server thread/INFO]: [voicechat] Sent secret to AdolfHitler
+[04:49:16] [Server thread/INFO]: [Not Secure] <AdolfHitler> nain nain
+[04:49:27] [Server thread/INFO]: [Not Secure] <SpiceYellow> para cuando entra vcryz
+[04:49:27] [Server thread/INFO]: AdolfHitler lost connection: Disconnected
+[04:49:27] [Server thread/INFO]: AdolfHitler left the game
+[04:49:27] [Server thread/INFO]: [voicechat] Disconnecting client AdolfHitler
+[04:49:54] [Server thread/WARN]: NosoyShox moved too quickly! -17.331806236823468,2.094532371899774,-0.19355713266259045
+[04:50:26] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:wildflowers
+[04:50:26] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=1, lines=0, cards=0)
+[04:50:26] [Server thread/INFO]: Re-drawing map_77 for team yellow (2.720441ms)
+[04:50:27] [Server thread/INFO]: Re-drawing map_77 for team yellow (2.502879ms)
+[04:50:35] [Server thread/WARN]: SpiceYellow moved too quickly! 15.620820397918209,-2.0017215853032013,9.505922487255361
+[04:50:38] [Server thread/INFO]: zPaio_ lost connection: Disconnected
+[04:50:38] [Server thread/INFO]: zPaio_ left the game
+[04:50:38] [Server thread/INFO]: [voicechat] Disconnecting client zPaio_
+[04:50:56] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:golden_pickaxe
+[04:50:56] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=2, lines=0, cards=0)
+[04:51:54] [Server thread/INFO]: NosoyShox has made the advancement [Acquire Hardware]
+[04:51:54] [Server thread/INFO]: NosoyShox has made the advancement [Diamonds!]
+[04:52:26] [Server thread/INFO]: adreanup has made the advancement [Acquire Hardware]
+[04:52:31] [Server thread/INFO]: [Not Secure] <SpiceYellow> ElAdolfEpsDidi
+[04:52:48] [Server thread/INFO]: [Not Secure] <SpiceYellow> q se ponga "esodilan"
+[04:53:22] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:melon_seeds
+[04:53:22] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=3, lines=0, cards=0)
+[04:54:24] [Server thread/INFO]: SpiceYellow has made the advancement [Suit Up]
+[04:54:41] [Server thread/INFO]: SpiceYellow experienced kinetic energy
+[04:54:44] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.AfterRespawn, ScopedEvents$$Lambda/0x000079deb534a260):
+java.lang.NoSuchMethodError: 'net.minecraft.class_1928 net.minecraft.server.MinecraftServer.method_3767()'
+	at knot//me.jfenn.bingo.common.spawn.PlayerController._init_$lambda$2(PlayerController.kt:249)
+	at knot//me.jfenn.bingo.common.event.ScopedEvents.onPlayerRespawn$lambda$0(ScopedEvents.kt:46)
+	at knot//me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31)
+	at knot//me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$8(ServerEventsImpl.kt:85)
+	at knot//net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents.lambda$static$2(ServerPlayerEvents.java:47)
+	at knot//net.minecraft.class_3324.handler$zin000$fabric-entity-events-v1$afterRespawn(class_3324.java:968)
+	at knot//net.minecraft.class_3324.method_14556(class_3324.java:474)
+	at knot//net.minecraft.class_3244.method_12068(class_3244.java:1932)
+	at knot//net.minecraft.class_2799.method_12120(class_2799.java:32)
+	at knot//net.minecraft.class_2799.method_65081(class_2799.java:8)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:54:58] [Server thread/INFO]: SpiceYellow lost connection: Disconnected
+[04:54:58] [Server thread/INFO]: SpiceYellow left the game
+[04:54:58] [Server thread/INFO]: [voicechat] Disconnecting client SpiceYellow
+[04:55:04] [Server thread/INFO]: NosoyShox has made the advancement [Isn't It Iron Pick]
+[04:55:12] [Server thread/INFO]: adreanup has made the advancement [Isn't It Iron Pick]
+[04:55:45] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:wildflowers
+[04:55:45] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=1, lines=0, cards=0)
+[04:56:09] [Server thread/INFO]: NosoyShox has made the advancement [Stone Age]
+[04:56:31] [Server thread/INFO]: NosoyShox has made the advancement [Hot Stuff]
+[04:56:53] [Server thread/INFO]: Game was inactive for PT1.299625622S - updating timer
+[04:56:55] [Server thread/INFO]: NosoyShox has made the advancement [We Need to Go Deeper]
+[04:57:00] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:quartz
+[04:57:00] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=2, lines=0, cards=0)
+[04:57:17] [Server thread/INFO]: NosoyShox has made the advancement [A Terrible Fortress]
+[04:58:01] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:nether_sprouts
+[04:58:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=3, lines=0, cards=0)
+[04:58:33] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:pink_wool
+[04:58:33] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=4, lines=0, cards=0)
+[04:58:46] [Server thread/INFO]: NosoyShox has made the advancement [Suit Up]
+[04:58:51] [Server thread/INFO]: Villager class_1646['Villager'/49476, l='ServerLevel[world]', x=1787.63, y=64.00, z=-185.72] died, message: 'Villager suffocated in a wall'
+[04:59:32] [Server thread/INFO]: NosoyShox has made the advancement [Monster Hunter]
+[04:59:39] [Server thread/INFO]: NosoyShox has made the advancement [Not Today, Thank You]
+[04:59:41] [Server thread/INFO]: NosoyShox has made the advancement [Into Fire]
+[05:00:37] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:bell
+[05:00:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=5, lines=0, cards=0)
+[05:01:00] [Server thread/INFO]: adreanup has made the advancement [Sweet Dreams]
+[05:02:17] [Server thread/INFO]: adreanup has made the advancement [Hot Stuff]
+[05:03:00] [Server thread/INFO]: NosoyShox has completed the challenge [Hot Tourist Destinations]
+[05:03:25] [Server thread/INFO]: adreanup has made the advancement [Ice Bucket Challenge]
+[05:03:39] [Server thread/INFO]: NosoyShox lost connection: Disconnected
+[05:03:39] [Server thread/INFO]: NosoyShox left the game
+[05:03:39] [Server thread/INFO]: [voicechat] Disconnecting client NosoyShox
+[05:03:41] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[05:03:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:41] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:41] [Server thread/INFO]: NosoyShox[/127.152.175.55:47791] logged in with entity id 53437 at (-569.8474936415458, 58.875, 654.0323494920557)
+[05:03:41] [IO-Worker-37/INFO]: [StatsSyncController] Broadcasting stats hash to player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:41] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:41] [Server thread/INFO]: NosoyShox joined the game
+[05:03:41] [Server thread/INFO]: [voicechat] Received secret request of NosoyShox (20)
+[05:03:41] [Server thread/INFO]: [voicechat] Sent secret to NosoyShox
+[05:03:41] [IO-Worker-37/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:41] [IO-Worker-37/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[05:03:44] [Server thread/INFO]: NosoyShox lost connection: Disconnected
+[05:03:44] [Server thread/INFO]: NosoyShox left the game
+[05:03:44] [Server thread/INFO]: [voicechat] Disconnecting client NosoyShox
+[05:03:46] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[05:03:46] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:46] [Server thread/INFO]: Preparing spawn area: 0%
+[05:03:46] [Server thread/INFO]: NosoyShox[/127.152.175.55:44105] logged in with entity id 53550 at (-569.8474936415458, 58.875, 654.0323494920557)
+[05:03:46] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:46] [IO-Worker-37/INFO]: [StatsSyncController] Broadcasting stats hash to player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:46] [Server thread/INFO]: NosoyShox joined the game
+[05:03:46] [Server thread/INFO]: [voicechat] Received secret request of NosoyShox (20)
+[05:03:46] [Server thread/INFO]: [voicechat] Sent secret to NosoyShox
+[05:03:47] [IO-Worker-37/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 60c948e2-7f87-3881-a203-bb41d7b1a230
+[05:03:47] [IO-Worker-37/INFO]: [StatsSyncController] Broadcasting 1 known gameIds to the client
+[05:04:47] [Server thread/INFO]: NosoyShox has made the advancement [Those Were the Days]
+[05:05:21] [Server thread/INFO]: adreanup has made the advancement [Diamonds!]
+[05:05:24] [Server thread/INFO]: adreanup has made the advancement [Stone Age]
+[05:06:08] [Server thread/INFO]: NosoyShox has made the advancement [War Pigs]
+[05:06:11] [Server thread/INFO]: NosoyShox has made the advancement [Who is Cutting Onions?]
+[05:06:39] [Server thread/INFO]: adreanup has made the advancement [Monster Hunter]
+[05:07:57] [Server thread/INFO]: NosoyShox has made the advancement [Ice Bucket Challenge]
+[05:09:03] [Server thread/INFO]: adreanup experienced kinetic energy
+[05:09:05] [Server thread/ERROR]: Exception in event handler (me.jfenn.bingo.platform.event.model.PlayerEvent.AfterRespawn, ScopedEvents$$Lambda/0x000079deb534a260):
+java.lang.NoSuchMethodError: 'net.minecraft.class_1928 net.minecraft.server.MinecraftServer.method_3767()'
+	at knot//me.jfenn.bingo.common.spawn.PlayerController._init_$lambda$2(PlayerController.kt:249)
+	at knot//me.jfenn.bingo.common.event.ScopedEvents.onPlayerRespawn$lambda$0(ScopedEvents.kt:46)
+	at knot//me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31)
+	at knot//me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$8(ServerEventsImpl.kt:85)
+	at knot//net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents.lambda$static$2(ServerPlayerEvents.java:47)
+	at knot//net.minecraft.class_3324.handler$zin000$fabric-entity-events-v1$afterRespawn(class_3324.java:968)
+	at knot//net.minecraft.class_3324.method_14556(class_3324.java:474)
+	at knot//net.minecraft.class_3244.method_12068(class_3244.java:1932)
+	at knot//net.minecraft.class_2799.method_12120(class_2799.java:32)
+	at knot//net.minecraft.class_2799.method_65081(class_2799.java:8)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[05:09:50] [Server thread/INFO]: adreanup has made the advancement [Cover Me with Diamonds]
+[05:09:50] [Server thread/INFO]: [ScoredItemCheck] adreanup got yet-another-minecraft-bingo:simplified/one_of_diamond_armor
+[05:09:50] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=6, lines=0, cards=0)
+[05:10:11] [Server thread/INFO]: NosoyShox has made the advancement [Hidden in the Depths]
+[05:11:34] [Server thread/INFO]: NosoyShox has completed the challenge [Return to Sender]
+[05:12:55] [Server thread/WARN]: adreanup moved too quickly! -8.805157472449537,1.792492028083494,15.683361919222818
+[05:12:55] [Server thread/INFO]: Game was inactive for PT1.115354638S - updating timer
+[05:13:00] [Server thread/INFO]: adreanup has made the advancement [Sneak 100]
+[05:13:55] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:calcite
+[05:13:55] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=7, lines=0, cards=0)
+[05:13:55] [Server thread/INFO]: Re-drawing map_76 for team aqua (5.698965ms)
+[05:14:30] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:calcite
+[05:14:30] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=4, lines=0, cards=0)
+[05:14:53] [Server thread/INFO]: adreanup has made the advancement [We Need to Go Deeper]
+[05:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[05:14:54] [Server thread/WARN]: NosoyShox moved too quickly! -16.49423620121297,-1.0054384615274188,-7.48634509331896
+[05:14:54] [Server thread/INFO]: Game was inactive for PT2.093982471S - updating timer
+[05:15:37] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:nether_sprouts
+[05:15:37] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=8, lines=0, cards=0)
+[05:15:50] [Server thread/INFO]: NosoyShox has made the advancement [Tactical Fishing]
+[05:15:50] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:salmon_bucket
+[05:15:50] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=5, lines=0, cards=0)
+[05:16:07] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:milk_bucket
+[05:16:07] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=6, lines=0, cards=0)
+[05:16:33] [Server thread/INFO]: adreanup has made the advancement [A Terrible Fortress]
+[05:17:01] [Server thread/INFO]: [ScoredItemCheck] NosoyShox got minecraft:bell
+[05:17:01] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_gray: TeamScore(items=7, lines=0, cards=0)
+[05:17:49] [Server thread/INFO]: adreanup has made the advancement [Into Fire]
+[05:18:58] [Server thread/INFO]: adreanup has made the advancement [Not Today, Thank You]
+[05:21:12] [Server thread/INFO]: NosoyShox has made the advancement [Eye Spy]
+[05:21:15] [Server thread/INFO]: adreanup has made the advancement [Those Were the Days]
+[05:22:21] [Server thread/INFO]: adreanup has made the advancement [Who is Cutting Onions?]
+[05:22:37] [Server thread/INFO]: adreanup has made the advancement [Suit Up]
+[05:22:41] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:quartz
+[05:22:41] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=9, lines=0, cards=0)
+[05:26:05] [Server thread/INFO]: [ScoredItemCheck] adreanup got minecraft:leather_leggings
+[05:26:05] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_yellow: TeamScore(items=10, lines=0, cards=0)
+[05:28:08] [Server thread/INFO]: adreanup has made the advancement [War Pigs]
+[05:29:42] [Server thread/WARN]: adreanup moved wrongly!
+[05:29:42] [Server thread/WARN]: adreanup moved wrongly!
